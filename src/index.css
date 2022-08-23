@@ -1,0 +1,15 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.no-scroll::-webkit-scrollbar {
+    width: 0;
+}
+
+.brightImage:hover {
+    filter: brightness(107%);
+}
